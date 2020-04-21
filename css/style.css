@@ -40,18 +40,18 @@ body {
     clip-path: polygon(0 0,100% 0, 100% 70%, 0 100%);
 }
 
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem; /* set parent element to relative. it counts from parent edges */
     
 }
 
-.logo {
+.header__logo {
     height: 2.5rem;
 }
 
-.hero {
+.header__hero {
     position: absolute;
     top: 40%;
     left: 50%;
