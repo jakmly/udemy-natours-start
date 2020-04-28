@@ -1,0 +1,17 @@
+* {
+    &:after,
+    &:before {
+        margin: 0;
+        padding: 0; 
+        box-sizing: inherit; /*every element on the page will inherit box-sizing value from body selector */
+        }
+    }
+    
+    html {
+        font-size: 62.5%; /*percent of default font size set in browser settings. usually 16px so it calculates to 10px*/
+    }                      //his defines what 1rem is, do we leave it in base.scss
+    
+    body {
+      
+        box-sizing: border-box;
+    }
