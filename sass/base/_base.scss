@@ -1,4 +1,5 @@
 * {
+    &,
     &:after,
     &:before {
         margin: 0;
@@ -12,6 +13,6 @@
     }                      //his defines what 1rem is, do we leave it in base.scss
     
     body {
-      
+        padding: 3rem;        
         box-sizing: border-box;
     }

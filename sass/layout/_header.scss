@@ -8,7 +8,7 @@
         url(../img/hero.jpg);
     background-size: cover;
     background-position: top; /*fixes top of the image so it gets cropped from the bottom*/
-    clip-path: polygon(0 0,100% 0, 100% 70%, 0 100%);
+    clip-path: polygon(0 0,100vw 0, 100vw 75vh, 0 90vh,);
 
 
     &__logo-box {

@@ -1,7 +1,25 @@
+//  COLORS
 $color-primary: #009c34;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
 
-$color-grey-dark: #777;
+$color-gray-light-1:rgb(228, 228, 228);
+$color-gray-light-2:rgb(185, 184, 184);
+$color-gray-medium: rgb(131, 128, 128);
+$color-gray-dark: rgb(78, 78, 78);
 $color-white: #fff;
-$color-black: #000;
+$color-black: rgb(14, 14, 14);
+
+
+//MARGINS 
+
+$margin-1: 1rem;
+$margin-2: 2rem;
+$margin-3: 4rem;
+$margin-4: 8rem;
+$margin-5: 10rem;
+
+//  GRID
+$row-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
