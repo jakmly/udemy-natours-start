@@ -309,6 +309,7 @@ body {
 .link--button:hover, .link--button:link:hover, .link--button:visited:hover {
   background-color: #009c34;
   color: #e4e4e4;
+  padding: .2rem;
 }
 
 .link--button:hover, .link--button:link:hover, .link--button:visited:hover {
@@ -447,9 +448,49 @@ body {
   color: white;
 }
 
+.composition {
+  position: relative;
+}
+
+.composition__photo {
+  width: 55%;
+  -webkit-box-shadow: 0 0.5rem 4rem #838080;
+          box-shadow: 0 0.5rem 4rem #838080;
+  border-radius: 2rem;
+  position: absolute;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.composition__photo--p1 {
+  top: -2rem;
+  left: 0;
+}
+
+.composition__photo--p2 {
+  top: 5rem;
+  right: 0;
+}
+
+.composition__photo--p3 {
+  top: 15rem;
+  left: 20%;
+}
+
+.composition__photo:hover {
+  z-index: 999;
+  -webkit-transform: scale(1.06) translateY(-0.5rem);
+          transform: scale(1.06) translateY(-0.5rem);
+}
+
+.composition:hover .composition__photo:not(:hover) {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
 .section-about {
   background-color: #e4e4e4;
-  padding: 25rem 0;
+  padding: 25rem 0 0 0;
   margin-top: -20vh;
 }
 /*# sourceMappingURL=main.css.map */

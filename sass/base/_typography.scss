@@ -105,11 +105,10 @@ line-height: 1.7;
         &:hover {
             background-color: $color-primary;
             color: $color-gray-light-1;
+            padding: .2rem;
         }
 
         @include buttonAnimation
-
-      
 
     }
 
