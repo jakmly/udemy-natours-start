@@ -189,6 +189,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
+  color: #6b6b6b;
 }
 
 .heading-primary {
@@ -233,9 +234,8 @@ body {
   font-weight: 700;
   letter-spacing: .1rem;
   word-spacing: 0.5rem;
-  background-image: -webkit-gradient(linear, left top, right top, from(#7ed56f), to(#28b485));
-  background-image: linear-gradient(90deg, #7ed56f 0%, #28b485 100%);
-  background-blend-mode: darken;
+  background: -webkit-gradient(linear, left top, right top, from(#7ed56f), to(#28b485));
+  background: linear-gradient(90deg, #7ed56f 0%, #28b485 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -277,13 +277,13 @@ body {
 }
 
 .link--light, .link--light:link, .link--light:visited {
-  color: #e4e4e4;
+  color: #f1f1f1;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 .link--light:hover, .link--light:link:hover, .link--light:visited:hover {
-  color: #4e4e4e;
+  color: #3f3f3f;
 }
 
 .link--dark, .link--dark:link, .link--dark:visited {
@@ -293,7 +293,7 @@ body {
 }
 
 .link--dark:hover, .link--dark:link:hover, .link--dark:visited:hover {
-  color: #4e4e4e;
+  color: #3f3f3f;
 }
 
 .link--button, .link--button:link, .link--button:visited {
@@ -308,7 +308,7 @@ body {
 
 .link--button:hover, .link--button:link:hover, .link--button:visited:hover {
   background-color: #009c34;
-  color: #e4e4e4;
+  color: #f1f1f1;
   padding: .2rem;
 }
 
@@ -324,6 +324,11 @@ body {
           box-shadow: 0px 0.1rem 2rem -0.6rem rgba(0, 0, 0, 0.5);
   -webkit-transform: translateY(-0.2rem);
           transform: translateY(-0.2rem);
+}
+
+.icon {
+  font-size: 1.6rem;
+  color: #0e0e0e;
 }
 
 .row {
@@ -440,12 +445,12 @@ body {
 
 .btn--white {
   background-color: white;
-  color: #4e4e4e;
+  color: #6b6b6b;
 }
 
 .btn--green {
   background-color: #55c57a;
-  color: white;
+  color: #fff;
 }
 
 .composition {
@@ -454,8 +459,8 @@ body {
 
 .composition__photo {
   width: 55%;
-  -webkit-box-shadow: 0 0.5rem 4rem #838080;
-          box-shadow: 0 0.5rem 4rem #838080;
+  -webkit-box-shadow: 0 0.5rem 4rem #6b6b6b;
+          box-shadow: 0 0.5rem 4rem #6b6b6b;
   border-radius: 2rem;
   position: absolute;
   -webkit-transition: all .2s;
@@ -488,9 +493,31 @@ body {
           transform: scale(0.98);
 }
 
+.card-zoom {
+  display: block;
+  text-align: center;
+  border-radius: .3rem;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.card-zoom__icon {
+  font-size: 5rem;
+  padding-top: 1rem;
+  background: -webkit-gradient(linear, left top, right top, from(#7ed56f), to(#28b485));
+  background: linear-gradient(90deg, #7ed56f 0%, #28b485 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 .section-about {
-  background-color: #e4e4e4;
+  background-color: #f1f1f1;
   padding: 25rem 0 0 0;
   margin-top: -20vh;
+}
+
+.section-features {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 156, 52, 0.7)), to(rgba(40, 180, 133, 0.7))), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 156, 52, 0.7), rgba(40, 180, 133, 0.7)), url(../img/nat-4.jpg);
 }
 /*# sourceMappingURL=main.css.map */

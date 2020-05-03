@@ -20,12 +20,12 @@
 
     &--white {
         background-color: white;
-        color: $color-gray-dark;
+        color: $color-gray-medium;
     }
 
     &--green {
         background-color: #55c57a;
-        color: white;
+        color: $color-white;
     }
 
 }

@@ -7,3 +7,10 @@
     }
 }
 
+@mixin gradientOverText {
+    background: linear-gradient(90deg, rgba(126,213,111,1) 0%, rgba(40,180,133,1) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        
+}

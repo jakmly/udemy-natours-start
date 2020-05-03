@@ -2,6 +2,7 @@ body {
     font-family: "Lato", sans-serif;
 font-weight: 400;
 line-height: 1.7;
+color: $color-gray-medium;
 }
 
 .heading-primary {
@@ -42,11 +43,7 @@ line-height: 1.7;
     font-weight: 700;
     letter-spacing: .1rem;
     word-spacing: 0.5rem;
-    background-image: linear-gradient(90deg, rgba(126,213,111,1) 0%, rgba(40,180,133,1) 100%);
-    background-blend-mode: darken;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    @include gradientOverText
     @include linkAnimation;
 }
 
@@ -55,11 +52,11 @@ line-height: 1.7;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1rem;;
+
 }
 
 .paragraph {
     font-size: 1.6rem;
-
     &:not(:last-child) {
         margin-bottom: $margin-3;
     }
@@ -111,5 +108,12 @@ line-height: 1.7;
         @include buttonAnimation
 
     }
+
+}
+
+.icon {
+
+    font-size: 1.6rem;
+    color: $color-black;
 
 }
