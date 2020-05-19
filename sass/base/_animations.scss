@@ -84,3 +84,12 @@
         transform: translateY(-0.2rem);
     }
 }
+
+@mixin zoomAnimation {
+    transition: all 0.2s; 
+    &:hover {
+        box-shadow: 0 .8rem 1.7rem rgba($color-black, .4) ;
+        z-index: 999;
+        transform: scale(1.05) translateY(-.5rem);
+    }
+}

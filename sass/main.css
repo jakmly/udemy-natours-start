@@ -61,6 +61,42 @@ body {
   margin-top: 10rem;
 }
 
+.u-padding-bottom-1 {
+  padding-bottom: 1rem;
+}
+
+.u-padding-bottom-2 {
+  padding-bottom: 2rem;
+}
+
+.u-padding-bottom-3 {
+  padding-bottom: 4rem;
+}
+
+.u-padding-bottom-4 {
+  padding-bottom: 8rem;
+}
+
+.u-padding-bottom-5 {
+  padding-bottom: 10rem;
+}
+
+.u-padding-top-1 {
+  padding-top: 1rem;
+}
+
+.u-padding-top-2 {
+  padding-top: 2rem;
+}
+
+.u-padding-top-3 {
+  padding-top: 8rem;
+}
+
+.u-padding-top-5 {
+  padding-top: 10rem;
+}
+
 @-webkit-keyframes moveinleft {
   0% {
     opacity: 0;
@@ -459,12 +495,13 @@ body {
 
 .composition__photo {
   width: 55%;
-  -webkit-box-shadow: 0 0.5rem 4rem #6b6b6b;
-          box-shadow: 0 0.5rem 4rem #6b6b6b;
-  border-radius: 2rem;
+  -webkit-box-shadow: 0 0.5rem 1.2rem rgba(14, 14, 14, 0.3);
+          box-shadow: 0 0.5rem 1.2rem rgba(14, 14, 14, 0.3);
   position: absolute;
   -webkit-transition: all .2s;
   transition: all .2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .composition__photo--p1 {
@@ -483,9 +520,11 @@ body {
 }
 
 .composition__photo:hover {
+  -webkit-box-shadow: 0 0.8rem 1.7rem rgba(14, 14, 14, 0.4);
+          box-shadow: 0 0.8rem 1.7rem rgba(14, 14, 14, 0.4);
   z-index: 999;
-  -webkit-transform: scale(1.06) translateY(-0.5rem);
-          transform: scale(1.06) translateY(-0.5rem);
+  -webkit-transform: scale(1.05) translateY(-0.5rem);
+          transform: scale(1.05) translateY(-0.5rem);
 }
 
 .composition:hover .composition__photo:not(:hover) {
@@ -498,11 +537,16 @@ body {
   text-align: center;
   border-radius: .3rem;
   background: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 0 0.5rem 1.2rem rgba(14, 14, 14, 0.3);
+          box-shadow: 0 0.5rem 1.2rem rgba(14, 14, 14, 0.3);
+  padding: 2rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .card-zoom__icon {
-  font-size: 5rem;
-  padding-top: 1rem;
+  font-size: 7rem;
+  padding-top: 2rem;
   background: -webkit-gradient(linear, left top, right top, from(#7ed56f), to(#28b485));
   background: linear-gradient(90deg, #7ed56f 0%, #28b485 100%);
   -webkit-background-clip: text;
@@ -510,14 +554,40 @@ body {
   color: transparent;
 }
 
+.card-zoom:hover {
+  -webkit-box-shadow: 0 0.8rem 1.7rem rgba(14, 14, 14, 0.4);
+          box-shadow: 0 0.8rem 1.7rem rgba(14, 14, 14, 0.4);
+  z-index: 999;
+  -webkit-transform: scale(1.05) translateY(-0.5rem);
+          transform: scale(1.05) translateY(-0.5rem);
+}
+
 .section-about {
   background-color: #f1f1f1;
-  padding: 25rem 0 0 0;
+  padding: 25rem 0 25rem 0;
   margin-top: -20vh;
 }
 
 .section-features {
+  background-color: #f1f1f1;
+  background-size: cover;
+  background-position: bottom;
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 156, 52, 0.7)), to(rgba(40, 180, 133, 0.7))), url(../img/nat-4.jpg);
   background-image: linear-gradient(to right bottom, rgba(0, 156, 52, 0.7), rgba(40, 180, 133, 0.7)), url(../img/nat-4.jpg);
+  padding: 20rem 0;
+  margin-top: -10rem;
+  -webkit-transform: skewY(-7deg);
+          transform: skewY(-7deg);
+}
+
+.section-features > * {
+  -webkit-transform: skewY(7deg);
+          transform: skewY(7deg);
+}
+
+.section-tours {
+  background-color: #f1f1f1;
+  padding: 25rem 0;
+  margin-top: -10rem;
 }
 /*# sourceMappingURL=main.css.map */

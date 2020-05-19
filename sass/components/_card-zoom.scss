@@ -4,9 +4,15 @@
     text-align: center;
     border-radius: .3rem;
     background:rgba($color-white, .8);
+    @include shadow;
+    padding: 2rem;
     &__icon {
-        font-size: 5rem;
-        padding-top: 1rem;
+        font-size: 7rem;
+        padding-top: 2rem;
         @include gradientOverText;
     }
+    
+    @include zoomAnimation;
+    
+
 }
