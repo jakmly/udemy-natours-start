@@ -7,11 +7,16 @@
 @import "base/animations";
 @import "base/typography";
 
-@import "layout/grid";
-@import "layout/header";
+
 @import "components/button";
 @import "components/photo-composition";
 @import "components/card-zoom";
+@import "components/card-360";
+
+
+@import "layout/grid";
+@import "layout/header";
+
 @import "pages/home";
 
 
