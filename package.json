@@ -4,7 +4,7 @@
   "description": "landing page natours",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel build.html",
+    "dev": "parcel index.html",
     "build": "parcel index.html"
   },
   "repository": {
