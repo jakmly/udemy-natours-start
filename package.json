@@ -4,7 +4,8 @@
   "description": "landing page natours",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css" 
+    "dev": "parcel build.html",
+    "build": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/jakmly/udemy-natours-start#readme",
   "devDependencies": {
-    "node-sass": "^4.14.0"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.5"
   }
 }
