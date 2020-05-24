@@ -673,6 +673,12 @@ body {
           backface-visibility: hidden;
 }
 
+.story__shape:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
 .story__image {
   height: 100%;
   -webkit-filter: blur(0);
@@ -726,6 +732,42 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.form {
+  display: block;
+  list-style: none;
+  margin-left: 3rem;
+}
+
+.form li {
+  margin: 3rem 0 0 1rem;
+  font-size: 1.6rem;
+}
+
+.form input {
+  padding: 1rem 12rem 1rem 1rem;
+  border-radius: .3rem;
+  border: none;
+}
+
+.form label {
+  margin: 0 1rem;
+}
+
+.form button {
+  margin-top: 4rem;
+}
+
+.form__container {
+  height: 50rem;
+  width: 100%;
+  background-image: linear-gradient(-60deg, rgba(241, 241, 241, 0) 50%, rgba(241, 241, 241, 0.8) 50%), url(/img/nat-9.jpg);
+  background-size: cover;
+}
+
+.form__container h2 {
+  margin: 3rem 0 3rem 4rem;
 }
 
 .row {
@@ -836,9 +878,31 @@ body {
   margin-top: -10rem;
 }
 
+.section-tours:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
 .section-stories {
   padding: 8rem 0;
   position: relative;
-  foo: bar;
 }
-/*# sourceMappingURL=main.css.map */
+
+.section-stories:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.section-book {
+  padding: 15rem;
+  background-image: linear-gradient(45deg, #7ed56f, #28b485);
+}
+
+.section-book:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+/*# sourceMappingURL=style.css.map */

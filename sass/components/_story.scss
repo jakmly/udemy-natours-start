@@ -8,7 +8,7 @@
     text-align: left;
     border-radius: .3rem;
     @include shadow
-    @include clearfix;
+    @include clearfix
     
 
     
@@ -33,6 +33,7 @@
         clip-path: circle(50% at 75% 50%);
         transform: translate(-6rem);
         backface-visibility: hidden;
+        @include clearfix
 
     }
 
