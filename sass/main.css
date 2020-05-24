@@ -839,5 +839,6 @@ body {
 .section-stories {
   padding: 8rem 0;
   position: relative;
+  foo: bar;
 }
 /*# sourceMappingURL=main.css.map */
